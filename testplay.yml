@@ -1,0 +1,8 @@
+---
+- name: Workflow Variable
+  hosts: all
+  tasks:
+  - name: Display Workflow Survey Variable Data
+    ansible.builtin.debug:
+      msg: "{{ welcome_message }}"
+...
