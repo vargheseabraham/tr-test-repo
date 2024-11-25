@@ -1,5 +1,5 @@
 ---
-- name: Workflow Variable
+- name: Workflow Variable Use
   hosts: all
   tasks:
   - name: Display Workflow Survey Variable Data
